@@ -4,6 +4,7 @@ from sklearn.metrics import roc_auc_score
 
 #model definition: 1 / (1 + exp(-M)), and here M = w * x + b + sum(<v_i, v_j> x_i * x_j)
 
+
 feature_dim = 10
 rank_num = 3
 
